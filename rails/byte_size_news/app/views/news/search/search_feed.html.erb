@@ -1,0 +1,6 @@
+<h1>Search Feed</h1>
+
+<% @users.each do |user| %> 
+  <h2><%= user.first_name %></h2>
+  <p><%= user.last_name %></p>
+<% end %>
